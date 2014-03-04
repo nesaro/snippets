@@ -1,0 +1,1 @@
+gnatmake -s practica4b -cargs -g 

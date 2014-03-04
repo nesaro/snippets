@@ -1,0 +1,4 @@
+#!/bin/bash
+gcc -g -c -fstack-check -gnata -gnatE -gnato -gnatf -gnatL $1.adb
+gnatbind -x $1.ali
+gnatlink -g $1.ali
