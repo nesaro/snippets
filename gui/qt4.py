@@ -1,6 +1,6 @@
 from PyQt4 import QtCore,QtGui
 
-pepe=QtGui.QApplication([])
+test_app=QtGui.QApplication([])
 ventana=QtGui.QMainWindow()
 widget=QtGui.QWidget()
 layout=QtGui.QHBoxLayout(widget)
@@ -11,4 +11,4 @@ layout.addWidget(etiqueta)
 layout.addWidget(etiqueta2)
 ventana.setCentralWidget(widget)
 ventana.show()
-pepe.exec_()
+test_app.exec_()
