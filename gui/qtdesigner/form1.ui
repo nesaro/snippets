@@ -1,0 +1,65 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>Form1</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>Form1</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>791</width>
+            <height>647</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Form1</string>
+    </property>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton1</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>130</x>
+                <y>30</y>
+                <width>101</width>
+                <height>61</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>push&amp;Button1</string>
+        </property>
+        <property name="accel">
+            <string>Alt+B</string>
+        </property>
+    </widget>
+    <widget class="QListBox">
+        <item>
+            <property name="text">
+                <string>Nuevo elemento</string>
+            </property>
+        </item>
+        <property name="name">
+            <cstring>listBox1</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>241</x>
+                <y>40</y>
+                <width>220</width>
+                <height>360</height>
+            </rect>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>pushButton1</sender>
+        <signal>clicked()</signal>
+        <receiver>Form1</receiver>
+        <slot>close()</slot>
+    </connection>
+</connections>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
