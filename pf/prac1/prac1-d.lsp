@@ -1,0 +1,6 @@
+(print(setq frase (list 'el 'pianista 'toca 'bien)))
+(print(cons 'pepe frase))
+(print(length frase))
+(print(append '(en la calle) frase))
+(print(nconc frase '(la trompeta)))
+(print frase)

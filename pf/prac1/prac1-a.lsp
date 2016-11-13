@@ -1,0 +1,10 @@
+(print(first '(((a b) c) d)))
+(print(rest '(((a b) c) d)))
+(print(first (rest '(((a b) c) d))))
+(print(first (rest '((a b) ((c d) e)))))
+(print(first (first '(((a b) c) d))))
+(print(rest (first '((a b) c d))))
+(print(first (first (rest '((a b) (c d e))))))
+(print(rest (rest (rest '((a b) (c d) (e f))))))
+(print(cons '(a b c) '()))
+
