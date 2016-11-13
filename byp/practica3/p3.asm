@@ -319,6 +319,24 @@ comienzo:
     MOV FIL, 3               ;; Fila y columna de comienzo
     MOV COL, 1
     MOV SALIR, 0
+   
+    PUSH AX
+    PUSH BX
+    PUSH CX
+    PUSH DX
+ 
+    MOV AH,6
+    MOV AL,0
+    MOV CH,0
+    MOV CL,0
+    MOV DH,24
+    MOV DL,79
+    INT 10h                   ;;(2,3)-(78,21), desplazamos scroll
+
+    POP DX
+    POP CX
+    POP BX  
+    POP AX
     CALL limpiar_pantalla
 bucle:
     CMP SALIR,1              ;; Se da la condicion de salida
