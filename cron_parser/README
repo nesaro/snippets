@@ -1,0 +1,26 @@
+FILES
+=====
+cron.py <- code
+tests.py <- some unit tests
+example <- the same example than in the requirements
+
+USAGE
+=====
+
+As described in the definition:
+
+    $ cat example | python cron.py 16:10
+    1:30 tomorrow - /bin/run_me_daily
+    ....
+
+
+NOTES
+=====
+
+I didn't use argparse because it was an extremely simple case, but in general it is a better option.
+str.split() was good enough for parsing, so no other parsing library was required
+
+AUTHOR
+======
+
+Nestor Arocha
