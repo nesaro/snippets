@@ -1,0 +1,8 @@
+TAREA:
+    un programa que maneje los diccionarios en formato humano.
+    listado de paginas fuente
+    listado de tipo de elementos
+    opciones fijas y obligatorias (tamaño, precio, origen)
+{"tipo":"tarjeta", "tamaño":(130,45), "precio":3434, "origen":"vistaprint"}
+
+programa que mira la diferencia entre dos paginas
