@@ -1,0 +1,7 @@
+.PS
+A: box "first" "object"
+move;
+B: ellipse "second" "object"
+move;
+arrow left at A;
+.PE

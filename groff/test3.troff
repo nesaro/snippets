@@ -1,0 +1,8 @@
+.PS
+P: [box "foo"; ellipse "bar"];
+Q: [
+[box "baz"; ellipse "quxx"]
+"random text";
+]
+arrow from 2nd last [];
+.PE
